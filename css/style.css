@@ -1,0 +1,147 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+	
+@media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }	
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.kolorek{
+	color: yellow;
+	
+	
+}
+
+
+.stylefb {
+  background: white;
+  color: #3B5998;
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 12px;
+  
+}
+
+
+
+.treningi{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.styleig {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: white;
+  color: #3B5998;
+  
+ }
+ 
+.ikonkiwsocialm{
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 3em;
+ }
+ 
+ #crossplace{
+	 margin-bottom: 3rem;
+	 text-align: center;
+	 
+	 
+ }
+ 
+ #cross4fight{
+	 letter-spacing: 3px;
+	 text-decoration: none;
+	 font-size: 1.25rem;
+	 margin-bottom: 15px;
+	 
+ }
+ 
+#adress{
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	
+}
+ h3{
+	 font-size: auto!important;
+	 margin-top: 2em;
+	 
+	 
+ }
+ 
+.zdjecie{
+	 display: flex;
+	 align-items: center;
+	
+	 
+	 
+ }
+
+.pt-4{
+	margin-bottom: 2em;
+	
+	
+}
+.kolorekh{
+	color: yellow;
+	
+	
+}
+
+.kolorekh:hover{
+	color: #E5C709;
+	cursor: pointer;
+	
+}
+
+.mx-5{
+	margin-top: 9em;
+	
+}
